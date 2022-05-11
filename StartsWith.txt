@@ -1,0 +1,18 @@
+public class StartsWith {
+	public static void main(String[] args) {
+		String name1="Hari";
+		String name2="Haritha";
+		int count=0;
+		for(int i=0;i<name1.length();i++)
+		{
+			if(name1.charAt(i)==name2.charAt(i))
+				count++;
+		}
+		if(name1.length()==count)
+			System.out.println("Yes name starts with hari");
+		else
+			System.out.println("No");
+		
+	}
+
+}
